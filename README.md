@@ -4,7 +4,7 @@ Tomcat Web app to connect to DB .
 
 1) Install Tomcat (Source)
 
-2) Download the jar file from this repository and copy in lib directory   <tomcatc source>/lib
+2) Download the jar file from this repository and copy in lib directory   [tomcatc source]/lib
 
 3) Update [tomcat source]/conf/context.xml 
 
