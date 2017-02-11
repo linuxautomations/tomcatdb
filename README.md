@@ -9,12 +9,12 @@ Tomcat Web app to connect to DB .
 3) Update <tomcat source>conf/context.xml 
 
 	{add the following content in context.xml just before the last line}
-
+##
 <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
                maxTotal="100" maxIdle="30" maxWaitMillis="10000"
                username="root" password="root" driverClassName="com.mysql.jdbc.Driver"
                url="jdbc:mysql://localhost:3306/test"/>
-
+##
 4) yum install mariadb mariadb-server -y
 
 5) Set the root password
